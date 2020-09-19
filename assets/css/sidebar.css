@@ -1,0 +1,155 @@
+* {
+    font-size: small;
+}
+
+div.flex-dashboard {
+    display: flex;
+    flex-direction: rom;
+    height: calc(100% - 5.4rem);
+    width: 100%;
+}
+
+div#ajax-content {
+    width: 100%;
+    margin-top: 20px;
+}
+
+header {
+    background-color: #123141;
+}
+
+header a {
+    color: #666;
+    text-decoration: none;
+}
+
+main {
+    display: block;
+    background-color: #ccc;
+    width: calc(100% - 15rem);
+    height: calc(100% - 2.5rem);
+}
+
+main .main-content {
+    padding: 2rem;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+sidebar {
+    width: 15rem;
+    height: 100%;
+    display: block;
+    background-color: #128588;
+}
+
+svg.svg-inline--fa.fa-user.fa-w-14 {
+    margin: 0 .5rem;
+}
+
+.dropdown-item {
+    color: #ccc;
+}
+
+.dropdown-item:active {
+    color: #ccc;
+    text-decoration: none;
+    background-color: #128588;
+}
+
+.dropdown-item:hover {
+    color: #ccc;
+    text-decoration: none;
+    background-color: #128588;
+}
+
+.dropdown-menu.show {
+    background-color: #113141;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+.main-content .panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+.main-content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #128588;
+    border-radius: 8px;
+    background-color: #F5F5F5;
+}
+
+.main-content::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.main-content::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    -webkit-box-shadow: inset 0 0 6px #128588;
+    background-color: #128588;
+}
+
+.panel-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.panel-50 {
+    width: 48%;
+}
+
+.panel-row button {
+    background: linear-gradient(135deg, #113141, #128588);
+    font-size: 22px;
+    color: #ccc;
+}
+
+.panel-row button:hover {
+    transform: scale(1.10);
+    transition: 0.2s;
+}
+
+.search a {
+    color: #ccc;
+    display: flex;
+    font-weight: 300;
+    padding: 2rem 0 2rem 1rem;
+    flex-direction: column;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.search a:hover {
+    color: #113141;
+    font-weight: 500;
+}
+
+.search u :hover {
+    text-decoration: none;
+}
+
+.table-dark {
+    background: linear-gradient(135deg, #eeb134, #ee8334);
+    border: 0;
+}
+
+.table-dark td,
+.table-dark th,
+.table-dark thead th {
+    border-color: #ccc;
+}
+
+@media (max-width: 585px) {}
